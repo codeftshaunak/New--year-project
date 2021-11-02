@@ -1,0 +1,62 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+p {
+        text-align: center;
+        font-size: 50px;
+        padding: 30px;
+        font-weight: 900;
+        color: rgb(255, 255, 255);
+        border: 2px solid black;
+        background-color: rgb(163, 31, 163);
+        transition: color 1.3s ease-in-out;
+        cursor: pointer;
+}
+
+.hero {
+        background: url(./image/1.jpg) no-repeat;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        font-family: "Archivo", sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+}
+
+.heading {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 40px;
+        z-index: 1;
+}
+
+.counter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        z-index: 1;
+        flex-wrap: wrap;
+}
+
+p:hover {
+        background-color: rgb(255, 255, 255);
+        color: purple;
+}
+
+.abs {
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        background-color: black;
+        top: 0;
+        left: 0;
+        opacity: 0.9;
+}
